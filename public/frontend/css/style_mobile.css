@@ -1,0 +1,17 @@
+@media (max-width: 768px){
+
+.home-content-3 .subject-content>div{padding: 10px 0 !important;}
+	
+.home-content-4 .right{margin-top: 20px}
+
+.footer .province .subject-content>div{margin-right: 0}
+
+.footer .footer-body .subject-item{margin-top: 10px}
+
+}
+
+@media (max-width: 1024px){
+
+.navbar-default .navbar-nav>li>a {padding-top: 10px !important;padding-bottom: 10px !important;}
+	
+}
