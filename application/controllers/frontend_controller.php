@@ -39,12 +39,14 @@ class Frontend_Controller extends CI_Controller
          */
         $this->load->model('frontend/province_model');
 
-        $province = $this->province_model->select('id, name')->find_all_by(array('status' => 1, 'national_id' => 2, 'deleted' => 0));
+        $provincetn = $this->province_model->select('id, name')->find_all_by(array('status' => 1, 'national_id' => 2, 'deleted' => 0));
+        $this->data['provincetn'] = $provincetn;
 
-        $provincenn = $this->province_model->select('id, name')->limit(14)->find_all_by(array('status' => 1, 'national_id != 2' => null, 'deleted' => 0));
 
-        $this->data['province'] = $province;
-        $this->data['provincenn'] = $provincenn;
+        if ($this->data['controller'] != 'handbook') {
+            $provincenn = $this->province_model->select('id, name')->limit(14)->find_all_by(array('status' => 1, 'national_id != 2' => null, 'deleted' => 0));
+            $this->data['provincenn'] = $provincenn;
+        }
         
         /*
          *  Session login

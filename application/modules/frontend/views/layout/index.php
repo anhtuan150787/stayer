@@ -346,7 +346,7 @@
             <div class="col-lg-12 province">
                 <div class="subject-name">KHÁCH SẠN THEO TỈNH THÀNH</div>
                 <div class="col-lg-12 subject-content">
-                    <?php foreach ($province as $v) : ?>
+                    <?php foreach ($provincetn as $v) : ?>
                         <div class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
                             <a href="<?php echo show_link($v->id, $v->name, 'province'); ?>">
                                 <span class="glyphicon glyphicon-triangle-right"></span>
