@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jun 01, 2017 at 07:33 PM
+-- Generation Time: Jul 18, 2017 at 09:31 PM
 -- Server version: 5.5.55-0ubuntu0.14.04.1
--- PHP Version: 5.5.9-1ubuntu4.21
+-- PHP Version: 5.6.30-12~ubuntu14.04.1+deb.sury.org+1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
